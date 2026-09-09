@@ -12,9 +12,9 @@
 
 ## 🎬 Video Demo Walkthrough
 
-[![Watch the PaymentGuard Demo](https://img.shields.io/badge/▶️_Watch_Demo_Video-Click_Here-red?style=for-the-badge&logo=youtube)](YOUR_DEMO_VIDEO_LINK_HERE)
+[![Watch the PaymentGuard Demo](https://img.shields.io/badge/▶️_Watch_Demo_Video-Click_Here-red?style=for-the-badge&logo=youtube)](https://lnkd.in/p/gsxMcKGg)
 
-> 💡 **Walkthrough Video**: [Click here to watch the 3-minute end-to-end architectural demo](YOUR_DEMO_VIDEO_LINK_HERE) covering AWS S3 shortcuts, PySpark Lakehouse pipelines, Eventstream KQL streaming, Zero-Copy cross-engine fusion, and Direct Lake Power BI dashboards.
+> 💡 **Walkthrough Video**: Click here to watch the 3-minute end-to-end architectural demo covering AWS S3 shortcuts, PySpark Lakehouse pipelines, Eventstream KQL streaming, Zero-Copy cross-engine fusion, and Direct Lake Power BI dashboards.
 
 > [!TIP]
 > 📖 **Looking for the step-by-step setup tutorial?**  
