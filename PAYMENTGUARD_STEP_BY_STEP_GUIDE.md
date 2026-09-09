@@ -1012,15 +1012,3 @@ spark.sql("VACUUM silver_transactions RETAIN 168 HOURS")
 | 11 | Real-Time Dashboard & Reflex | Trigger simulator anomaly batch | Dashboard updates, alert fires | [ ] |
 
 ---
-
-## What to Say in an Interview About This Project
-
-> *"In PaymentGuard, I engineered a multi-cloud, real-time transaction fraud detection platform on Microsoft Fabric that unifies AWS S3, Lakehouse, Eventhouse, and Warehouse into a zero-copy data mesh.*
-> 
-> *Historical labeled transactions (285K Kaggle credit card records) were stored in Amazon S3 and virtualized in Microsoft Fabric via an Amazon S3 OneLake Shortcut with zero data movement fees. A PySpark notebook transformed this data into Silver Delta tables, extracting temporal features and precomputing segment-level fraud baseline rates.*
-> 
-> *Concurrently, a Python streaming simulator fed live card transactions into a Fabric Eventstream connected to an Eventhouse KQL database, where sub-second sliding-window velocity checks (detecting rapid card-testing bursts) and anomaly detection queries flagged suspicious charges.*
-> 
-> *To create a single source of truth without ETL pipelines, I enabled OneLake Availability on Eventhouse and shortcutted both the Lakehouse Silver table and the live Eventhouse stream directly into a Fabric Warehouse. An idempotent T-SQL stored procedure fused live streaming signals with historical risk baselines into a Gold fact table (`fact_fraud_case`), which was then served through a Direct Lake Semantic Model in Power BI alongside an instant Data Activator escalation trigger.*
-> 
-> *Finally, I implemented enterprise governance practices including Dynamic Data Masking (DDM) for cardholder account masking, Row-Level Security (RLS) for regional analyst segregation, and Delta table OPTIMIZE/VACUUM maintenance."*
